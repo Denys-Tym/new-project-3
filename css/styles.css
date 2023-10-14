@@ -237,13 +237,13 @@ ol {
   padding-bottom: 120px;
 }
 
-.portfolio-line1 {
+.portfolio-line-1 {
   display: flex;
   justify-content: space-between;
   padding-bottom: 48px;
 }
 
-.portfolio-line2 {
+.portfolio-line-2 {
   display: flex;
   justify-content: space-between;
 }
