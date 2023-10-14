@@ -237,15 +237,9 @@ ol {
   padding-bottom: 120px;
 }
 
-.portfolio-line-1 {
+.portfolio-list {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 48px;
-}
-
-.portfolio-line-2 {
-  display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .image-title {
