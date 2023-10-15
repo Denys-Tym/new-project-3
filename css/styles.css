@@ -92,13 +92,9 @@ ol {
   justify-content: space-between;
 }
 
-.header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .header-list {
   display: flex;
+  padding: 24px 0;
   align-items: center;
   gap: 40px;
 }
