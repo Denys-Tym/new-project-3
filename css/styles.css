@@ -55,6 +55,12 @@ ol {
   padding-right: 15px;
 }
 
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -67,7 +73,6 @@ ol {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
-  padding: 24px 0;
 }
 
 .header-logo-up {
@@ -94,7 +99,6 @@ ol {
 
 .header-list {
   display: flex;
-  padding: 24px 0;
   align-items: center;
   gap: 40px;
 }
@@ -103,11 +107,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-
-.page-header {
-  padding: 0 156px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-link:hover,
@@ -133,11 +132,11 @@ ol {
 /* Hero styles */
 
 .hero {
+  padding: 188px 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .hero-container {
-  padding: 188px 0;
   text-align: center;
 }
 
@@ -153,8 +152,7 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  display: inline;
-  text-align: center;
+  margin: 0 auto;
 }
 .hero-btn {
   min-width: 169px;
@@ -168,10 +166,8 @@ ol {
   letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
-}
-
-.btn {
   display: block;
+  margin: 0 auto;
   margin-top: 48px;
 }
 
