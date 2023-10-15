@@ -173,6 +173,10 @@ ol {
 }
 /* Main styles */
 
+.hidden {
+  visibility: hidden;
+}
+
 .feature {
   padding: 120px 0;
 }
@@ -227,6 +231,7 @@ ol {
 .our-team {
   background: var(--CLOUD, #f4f4fd);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-text {
@@ -241,7 +246,7 @@ ol {
 }
 
 .our-portfolio {
-  padding-top: 0;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -305,6 +310,7 @@ ol {
 
 .logo-down {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
